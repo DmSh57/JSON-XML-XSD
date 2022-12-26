@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name=«Boarding_pass>
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Номер рейса -->
+                <xs:element name="Flight" type="xs:integer" maxOccurs="1"/>
+                <!-- Данные пассажира -->
+                <xs:element name="Passenger" type="xs:string" maxOccurs="1"/>
+                <!-- Пол пассажира -->
+                <xs:element name="Gender" type="xs:string" maxOccurs="1"/>
+						<xs:minLength value="3"/>
+						<xs:maxLength value="10"/>
+                <!-- Дата и время посадки -->
+                <xs:element name="Date" type="xs:dateTime" maxOccurs="1"/>
+                <!-- От куда вылет -->
+                <xs:element name="From" type="xs:string" maxOccurs="1"/>
+                <!-- Куда вылет -->
+                <xs:element name="To" type="xs:string" maxOccurs=«1»/>
+                <!-- Место посадки в самолете -->
+                <xs:element name="Seat" type="xs:string" maxOccurs=«1»/>
+                <!-- Выход для посадки -->
+                <xs:element name="Gate" type="xs:integer" maxOccurs="1"/>
+                <!-- На индекс ставятся лица, которых необходимо вызвать на дополнительный опрос -->
+                <xs:element name="Index" type="xs:boolean" maxOccurs="1"/>
+                <xs:element name="updated" type="xs:dateTime" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
