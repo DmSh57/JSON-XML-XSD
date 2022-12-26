@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Boarding_pass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation=«Shapovalov.xsd">
+    <Flight>0094</Flight>
+    <Passenger>Shapovalov Dmitrii MR</Passenger>
+    <Gender>Male</Gender>
+    <Date>2023-01-01T10:30:00.0</Date>
+    <From>Pulkovo-SPB</From>
+    <To>Vnukovo-Moscow</To>
+    <Seat>4F</Seat>
+    <Gate>1</Gate>
+    <Index>0</Index>
+    <updated>2022-12-18T20:00:00.0</updated>
+</Boarding_pass>
+  
