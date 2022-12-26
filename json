@@ -1,0 +1,14 @@
+{
+  "Boarding_pass": {
+    "Flight": 0094,
+    "Passenger": "Shapovalov Dmitrii MR",
+    «Gender": "Male",
+    "Date": "2023-01-01T10:30:00.0",
+    "From": "Pulkovo-SPB",
+    "To": "Vnukovo-Moscow",
+    "Seat": "4F",
+    "Gate": 1,
+    «Index: true,
+    "updated": "2022-12-18T20:00:00.0"
+  }
+}
